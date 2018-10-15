@@ -1,0 +1,2 @@
+ls | sed -r 's@(.*)\.wav@lame -h \"\1.wav\" \"\1.mp3\"@g' | sh
+

@@ -1,0 +1,2 @@
+rclone -vv  sync /home/cassio/Biblioteca\ do\ calibre/ BibCalibre:BibCalibre
+rclone -vv  sync "/home/cassio/Música/Biblioteca de Rhythmbox" BibCalibre:BibRhythmbox
