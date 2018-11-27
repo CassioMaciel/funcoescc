@@ -1,2 +1,3 @@
-fdupes -r ~/Downloads/ ~/Biblioteca\ do\ calibre/ | grep "Downloads" | sed -r "s/(.*)/rm \"\1\"/"  > ~/Duplicados
+#!/bin/bash
 
+fdupes -r ~/Downloads/ ~/Biblioteca\ do\ calibre/ | grep "Downloads" | sed -r "s/(.*)/rm \"\1\"/"  | sh
