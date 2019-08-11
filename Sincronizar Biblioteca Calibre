@@ -3,3 +3,4 @@
 rclone -vv  sync /home/cassio/Biblioteca\ do\ calibre/ BibCalibre:BibCalibre
 rclone -vv  sync "/home/cassio/Música/Biblioteca de Rhythmbox" BibCalibre:BibRhythmbox
 rclone -vv sync "/home/cassio/Documentos/gnucash" godrive:gnucash
+rclone -vv sync "/home/cassio/Documentos/Resumos" Telefone:Resumos
